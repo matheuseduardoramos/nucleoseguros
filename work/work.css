@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Montserrat', sans-serif;
+}
+p{
+    font-size: 14px;
+    padding-bottom: 15px;
+}
+h1{
+    font-size: 35px;
+    padding: 16px 0px;
+}
+header{
+    display: flex;
+
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 12px;
+
+}
+@media only screen and (min-device-width: 394px) {
+    header { width:100%; }
+}
+.logo{
+    width: 91px;
+}
+
+.ul-list{
+    display: flex;
+    flex-direction: row;
+    font-size: 24px;
+    list-style: none;
+
+    padding: 50px 35px;
+}
+
+.lnk-list{
+    text-decoration: none;
+    color: #374456;
+    padding: 15px 15px;
+}
+
+.lnk-list:hover{
+    color: #ffffff;
+    background-color: #507D92;
+    border-radius: 12px;
+}
+.btn-cota{
+    height: 42px;
+    width: 160px;
+    font-weight: 600;
+    font-size: 16px;
+}
+.redes-soc{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+}
+.lnk-rede{
+    padding: 15px 8px;
+}
+
+/* FORM */
+.formWork{
+    display: flex;
+    flex-direction: column;
+    padding-left: 160px;
+    margin-bottom: 145px;
+}
+#sendWork{
+    display: none;
+}
+.btn-work{
+    width: 400px;
+    height: 45px;
+    border-radius: 60px;
+    padding: 18px 8px 0px 8px;
+    margin: 0px 0px 5px;
+    align-items: center;
+    text-align: center;
+    background-color: #507D92;
+    color: azure;
+    display: block;
+    cursor: pointer;
+}
+.txt-form{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1px;
+    padding-top: 26px;
+}
+.ipt-work{
+    width: 667px;
+    height: 50px;
+}
+.ipt-work-msg{
+    width: 667px;
+    height: 190px;
+}
+
+.btn-section{
+    width: 12rem;
+    height: 4rem;
+    font-weight: 600;
+    font-size: 24px;
+    color: azure;
+    margin-top: 15px;
+    background: linear-gradient(to right, #659AAF, #659AAF, #3A4E60);
+    border-radius: 18px;
+    transition: .3s ease-in-out;
+    opacity: 1;
+    border: none;
+}
+
+.btn-section:hover{
+    background: linear-gradient(to right, #659AAF, #3A4E60,#659AAF);
+    border-radius: 18px;
+   
+    opacity: 0.9;
+    border: none;
+}
+.input:focus, textarea:focus {
+    /* Dar um pouco de destaque nos elementos ativos */
+    border-color: #c42020;
+}
+
+
+
+/* FOOTER */
+footer{
+    display: flex;
+    justify-content: space-around;
+    padding: 35px;
+}
+h2{
+    font-size: 20px;
+}
+h3{
+    font-size: 16px;
+}
+.service-contato{
+    display: flex;
+    padding-top: 12px;
+}

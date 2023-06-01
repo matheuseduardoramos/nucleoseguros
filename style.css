@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Montserrat', sans-serif;
+}
+header{
+    display: flex;
+
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 12px;
+
+}
+@media only screen and (min-device-width: 394px) {
+    header { width:100%; }
+}
+.logo{
+    width: 91px;
+}
+
+.ul-list{
+    display: flex;
+    flex-direction: row;
+    font-size: 24px;
+    list-style: none;
+
+    padding: 50px 35px;
+}
+
+.lnk-list{
+    text-decoration: none;
+    color: #374456;
+    padding: 15px 15px;
+}
+
+.lnk-list:hover{
+    color: #ffffff;
+    background-color: #507D92;
+    border-radius: 12px;
+}
+.btn-cota{
+    height: 42px;
+    width: 160px;
+    font-weight: 600;
+    font-size: 16px;
+}
+.redes-soc{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+}
+.lnk-rede{
+    padding: 15px 8px;
+}
+
+/* BANNER */
+.Banner{
+    width: 100%;
+}
+
+/* ESPECIALIDADE */
+.especialidade{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 29rem;
+
+    color: azure;
+    background-color: #19333f;
+   
+}
+.esp-card{
+    display: flex;
+    justify-content:space-around;
+    text-align: center;
+}
+.img-esp{
+    width: 30rem;
+    padding: 0px 25px;
+}
+.txt-esp{
+    font-size: 26px;
+    padding-top: 12px;
+}
+
+/* SEGUROS */
+.segur{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+    padding: 36px 20px;
+}
+.sgr-card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    padding-top: 26px;
+}
+.cont-seguro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background-color: #D9D9D9;
+    border:1px solid #000000;
+    width: 20%;
+    border-radius: 45px;
+    padding: 35px;
+    margin: 15px;
+}
+
+.img-seg{
+    width: 45px;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 12px;
+}
+
+#link-topo{
+    position: fixed;
+    right: 3rem;
+    bottom: 3rem;
+    width: 3rem;
+    height: 3rem;
+    text-decoration: none;
+    background: -webkit-linear-gradient(332deg, rgba(185, 229, 246, 0.979) 29%, rgb(153, 225, 151) 66%); 
+    background: linear-gradient(332deg, rgba(170, 223, 226, 0.979) 29%, rgb(158, 181, 157) 66%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(32, 20, 3);
+    border-radius: 50%;
+    box-shadow: 0 0.1rem 0.6rem rgba(0, 0, 0, .5);
+}
+
+.btn-section{
+    width: 18rem;
+    height: 4rem;
+    font-weight: 600;
+    font-size: 24px;
+    margin-top: 45px;
+    background: linear-gradient(to right, #659AAF, #659AAF, #3A4E60);
+    border-radius: 18px;
+    transition: .3s ease-in-out;
+    opacity: 1;
+    border: none;
+}
+
+.btn-section:hover{
+    width: 18rem;
+    height: 4rem;
+    font-weight: 600;
+    font-size: 24px;
+    margin-top: 45px;
+    background: linear-gradient(to right, #659AAF, #3A4E60,#659AAF);
+    border-radius: 18px;
+   
+    opacity: 0.9;
+    border: none;
+}
+
+/* VIDEO */
+.video{
+    display: flex;
+    justify-content: space-around;
+    padding: 45px;
+
+    background-color: #E3E3E3;
+    height: 20rem;
+}
+.txt-video{
+    width: 35rem;
+}
+.legend-video{
+    padding: 25px 0px;
+}
+.frame-video{
+    width: 560px;
+    height: 315px;
+}
+
+/* FOOTER */
+footer{
+    display: flex;
+    justify-content: space-around;
+    padding: 35px;
+}
+h2{
+    font-size: 20px;
+}
+h3{
+    font-size: 16px;
+}
+.service-contato{
+    display: flex;
+    padding-top: 12px;
+}

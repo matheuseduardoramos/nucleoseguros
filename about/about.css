@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Montserrat', sans-serif;
+}
+p{
+    font-size: 14px;
+    padding-bottom: 15px;
+}
+h1{
+    font-size: 35px;
+    padding: 16px 0px;
+}
+header{
+    display: flex;
+
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 12px;
+
+}
+@media only screen and (min-device-width: 394px) {
+    header { width:100%; }
+}
+.logo{
+    width: 91px;
+}
+
+.ul-list{
+    display: flex;
+    flex-direction: row;
+    font-size: 24px;
+    list-style: none;
+
+    padding: 50px 35px;
+}
+
+.lnk-list{
+    text-decoration: none;
+    color: #374456;
+    padding: 15px 15px;
+}
+
+.lnk-list:hover{
+    color: #ffffff;
+    background-color: #507D92;
+    border-radius: 12px;
+}
+.btn-cota{
+    height: 42px;
+    width: 160px;
+    font-weight: 600;
+    font-size: 16px;
+}
+.redes-soc{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+}
+.lnk-rede{
+    padding: 15px 8px;
+}
+
+/* ABOUTCARD */
+
+.container-cards{
+    display: flex;
+    flex-direction: column;
+}
+
+.space-card{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 60px;
+}
+.cards{
+    line-height: 40px;
+}
+.card-txt{
+    width: 526px;
+}
+
+
+/* SPACE WORK */
+.space-work{
+    background-color: #D9D9D9;
+    display: flex;
+    justify-content: space-around;
+    padding: 45px 0px;
+    margin: 0px 30px;
+
+    align-items: center;
+    border-radius: 60px;
+}
+
+/* FOOTER */
+footer{
+    display: flex;
+    justify-content: space-around;
+    padding: 35px;
+}
+h2{
+    font-size: 20px;
+}
+h3{
+    font-size: 16px;
+}
+.service-contato{
+    display: flex;
+    padding-top: 12px;
+}
